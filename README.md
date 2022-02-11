@@ -31,8 +31,8 @@ It would be great to upgrade the program to the real time I/O. I would like to a
 
 # How to launch (ubuntu 16.04)
 Clone the code: git clone https://github.com/topcuemre/cs50-final-project.git
-sudo apt-get install -y libasound2-dev is a dependency for ALSA
-gcc -o query query.c -lrt -lasound -lpthread -lportaudio
+- sudo apt-get install -y libasound2-dev is a dependency for ALSA
+- gcc -o query query.c -lrt -lasound -lpthread -lportaudio
 
 
 Emre Topcu 12/31/2021
