@@ -30,7 +30,7 @@ Rocksmith Cable has 1 channel for output and my spekakers has 2 channels. That a
 It would be great to upgrade the program to the real time I/O. I would like to analyze the real time input's frequency domain by applying Fast Fourier Transform. Making of a tuner can be the first checkpoint.
 
 # How to launch (ubuntu 16.04)
-Clone the code: git clone https://github.com/topcuemre/cs50-final-project.git
+- git clone https://github.com/topcuemre/musical-winner.git
 - sudo apt-get install -y libasound2-dev is a dependency for ALSA
 - gcc -o query query.c -lrt -lasound -lpthread -lportaudio
 
